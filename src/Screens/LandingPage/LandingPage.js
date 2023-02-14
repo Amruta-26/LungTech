@@ -4,6 +4,7 @@ import NavigationBar from "../../Components/NavigationBar/NavigationBar";
 import Banner from "../../Components/Banner/Banner";
 import Service from "../../Components/Service/Service"
 import Purpose from "../../Components/Purpose/Purpose";
+import Team from "../../Components/Team/Team";
 // import Footer from "../../Components/Footer/Footer"
 // import Process from "../../Components/Process/Process";
 
@@ -24,6 +25,10 @@ const LandingPage = () => {
         <br/>
         <Purpose className="purpose" />
         <br/>
+      </div>
+      <br />
+      <div>
+        <Team className="team" />
       </div>
     </div>
   );
