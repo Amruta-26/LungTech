@@ -3,6 +3,7 @@ import "./LandingPage.css";
 import NavigationBar from "../../Components/NavigationBar/NavigationBar";
 import Banner from "../../Components/Banner/Banner";
 import Service from "../../Components/Service/Service"
+import Purpose from "../../Components/Purpose/Purpose";
 // import Footer from "../../Components/Footer/Footer"
 // import Process from "../../Components/Process/Process";
 
@@ -16,9 +17,14 @@ const LandingPage = () => {
       </div>
       <br />
       <div className="sevices">
-        <Service className="service"/>
+        <Service className="service" />
       </div>
       <br/>
+      <div className="why">
+        <br/>
+        <Purpose className="purpose" />
+        <br/>
+      </div>
     </div>
   );
 };
